@@ -1,0 +1,233 @@
+html, body {
+	height: 100%;
+	font-family: 'Numans', sans-serif;
+	background-image:
+		url('https://images.unsplash.com/photo-1524169358666-79f22534bc6e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+	font-family: 'Numans', sans-serif;
+	background-color: #272b31;
+	color: black;
+}
+
+#error {
+	color: red;
+	font-size: 12pt;
+}
+
+#acceptcookie {
+	color: white;
+	background-color: green;
+	border-color: green;
+}
+
+#acceptcookie:hover {
+	background-color: lightgreen;
+}
+
+#declinecookie {
+	color: white;
+	background-color: darkred;
+	border-color: darkred;
+}
+
+footer {
+	color: rgba(255, 255, 255, .325);
+	text-align: center;
+}
+
+#login-footer {
+	margin-top: 50px;
+}
+
+.search-button .theme-button {
+	width: 25px;
+}
+
+.formSearch {
+	width: 85%;
+	height: 38px;
+}
+
+#bSmall {
+	width: 42px;
+}
+
+#buSmall {
+	width: 42px;
+}
+
+.leftbtnAlign {
+	display: flex;
+}
+
+.container::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.time-right {
+	float: right;
+	color: #aaa;
+}
+
+.time-left {
+	float: left;
+	color: #999;
+}
+
+.feed {
+	padding: 10px;
+	margin: auto;
+	background-color: rgba(0, 0, 0, 0.3);
+	border: 1px solid rgba(0, 0, 0, .125);
+	border-radius: 4px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.feedCard-header {
+	border-bottom: 1px solid rgba(0, 0, 0, .125);
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+.feedCard-header h5 {
+	color: white;
+}
+
+h2 {
+	color: white;
+}
+
+.container-feed {
+	border: 2px solid #dedede;
+	background-color: #f1f1f1;
+	color: #333;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 10px 0;
+}
+
+.darker {
+	border-color: #bbb;
+	background-color: #ccc;
+}
+
+.feedUame {
+	color: black;
+	font-weight: 700;
+}
+
+.feedHashtag {
+	color: rgb(129, 61, 156);
+}
+
+.feed-header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.feed-form {
+	margin: 20px 0;
+}
+
+.btn-logout {
+	float: right;
+}
+
+.formMessage {
+	height: 100px;
+	min-height: 50px;
+	width: 100%;
+}
+
+.formHashTag {
+	height: 38px;
+	width: 45%;
+}
+
+.fa-adjust {
+	color: black;
+}
+
+.body-dark {
+	color: white;
+	background-image:
+		url('https://images.unsplash.com/photo-1491895200222-0fc4a4c35e18?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+	background-color: #272b31;
+}
+
+.login {
+	height: 100%;
+	align-content: center;
+}
+
+.card-login {
+	height: 250px;
+	margin-top: auto;
+	margin-bottom: auto;
+	width: 400px;
+	background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+.card-login input {
+	margin: 0 0 10px 0;
+}
+
+.card-header h3 {
+	color: white;
+	text-align: center;
+}
+
+.input-group-prepend span {
+	width: 50px;
+	height: 38px;
+	background-color: rgb(94, 92, 100);
+	color: rgb(246, 245, 244);
+	border: 0 !important;
+}
+
+input:focus {
+	outline: 0 0 0 0 !important;
+	box-shadow: 0 0 0 0 !important;
+}
+
+.btn {
+	color: rgb(246, 245, 244);
+	background-color: rgb(94, 92, 100);
+	width: 100px;
+	float: right;
+}
+
+.btn.btn-primary {
+	color: rgb(246, 245, 244);
+	background-color: rgb(94, 92, 100);
+	border: 0;
+}
+
+.btn_div {
+	margin-top: 20px;
+}
+
+.btn:hover {
+	color: black;
+	background-color: white;
+}
+
+.feeds::-webkit-scrollbar {
+	display: none;
+}
+
+.feeds {
+	height: 495px;
+	overflow: auto;
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+}
